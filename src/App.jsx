@@ -4,6 +4,7 @@ import Footer from './Footer.jsx'
 import Card from './Card.jsx'
 import Button from './Button.jsx'
 import Student from './Student.jsx'
+import ProfileCard from './ProfileCard.jsx'
 
 function App() {
   return (
@@ -13,11 +14,13 @@ function App() {
       <Student name="patrich" age={25} isstudent={false} />
       <Student />
       <Student/>
+
       <Food />
       <Food />
       <Button/>
       <Card />
       <Card />
+      <ProfileCard name="Arpit Chauhan" age={25} role="Frontend Developer" />
       <Footer />
     </>
   )
